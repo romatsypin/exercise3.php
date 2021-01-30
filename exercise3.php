@@ -100,5 +100,5 @@
 ?>
 
 <h2>//7</h2>
-<a href="https://github.com/romatsypin/webprogramming_exercises">Repo</a>
-<a href="https://romatsypin.github.io/webprogramming_exercises/">Website</a>
+<a href="https://github.com/romatsypin/exercise3.php">Repo</a>
+<a href="https://romatsypin.github.io/exercise3.php/">Website</a>
