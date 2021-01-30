@@ -1,0 +1,178 @@
+ body
+{
+  background: url("../images/bg.jpg");
+
+  position: relative;
+}
+
+.container-main
+{
+  text-align: center;
+
+  min-height: 100vh;
+  display: block;
+  position: relative;
+  padding-bottom: 280px;
+}
+
+/* Navbar */
+.navbar-flex
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: black;
+
+  align-items: center;
+}
+
+.navbar-flex ul
+{
+  padding-left: 150px;
+  justify-content: center;
+}
+
+.navbar-flex a
+{
+  text-decoration: none;
+  color: #FFE817;
+}
+
+.navbar-flex li
+{
+    padding-right: 150px;
+}
+
+a:hover
+{
+  color:blue;
+}
+
+.navbar-flex li
+{
+  display: inline-flex;
+  font-size: 36px;
+}
+
+.lang-icons
+{
+  width: 57px;
+  height: 53px;
+  padding-left: 5px;
+}
+
+.navbar-flex .lang-selector
+{
+  padding-left: 50px;
+}
+
+.lang-links
+{
+  padding:0 !important;
+}
+
+.unactive
+{
+  opacity: 0.5;
+}
+
+.unactive:hover
+{
+  opacity: 0.8;
+}
+
+.navbar-flex .brand-icon
+{
+  width: 100%;
+  height: 100%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brand-text
+{
+  color: #FFE817 !important;
+}
+
+
+.non-active
+{
+  color: rgba(255, 232, 23, 0.43) !important;
+}
+
+.non-active:hover
+{
+  color: blue !important;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 232, 23)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: #FFE817;
+}
+
+/* Navbar */
+
+
+/* Footer */
+
+.footer-nav
+{
+  background-color: white;
+  text-align: center;
+
+  padding-top: 20px;
+
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer li
+{
+  text-decoration: none;
+  display: inline;
+}
+
+
+footer img
+{
+  width: 42px;
+  height: 43px;
+}
+
+footer .tripadvisor
+{
+  width: 255px !important;
+  height: 30px !important;
+  padding-left: 55px;
+}
+
+.copyright
+{
+  text-align: center;
+}
+
+
+/* Footer */
+
+
+@media (max-width: 1020px)
+{
+  .navbar-flex
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar-flex .lang-selector
+  {
+    padding: 0;
+  }
+
+}
