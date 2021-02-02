@@ -102,3 +102,10 @@
 <h2>//7</h2>
 <a href="https://github.com/romatsypin/exercise3.php">Repo</a>
 <a href="https://romatsypin.github.io/exercise3.php/">Website</a>
+
+<h2>//8</h2>
+<?php
+echo ("1 out of 1 for clarity.");
+?>
+
+</body>
